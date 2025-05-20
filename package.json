@@ -1,12 +1,34 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Applicazione CLI per utilità di manipolazione e analisi di stringhe.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StefanoNoce/ssgs-labo-02.git"
+  },
+  "homepage": "https://github.com/StefanoNoce/ssgs-labo-02#readme",
+  "bugs": {
+    "url": "https://github.com/StefanoNoce/ssgs-labo-02/issues"
+  },
+  "keywords": [
+    "cli",
+    "string",
+    "nodejs",
+    "utility",
+    "palindroma",
+    "inversione",
+    "troncamento",
+    "conteggio"
+  ],
+  "author": "Stefano Noce",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
