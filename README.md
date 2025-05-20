@@ -68,3 +68,12 @@ Per eseguire i test e generare il report di code coverage:
 npm run coverage
 ```
 Il report dettagliato sarà disponibile nella cartella `coverage/`.
+
+## Integrazione Continua (CI)
+
+Questo progetto utilizza GitHub Actions per eseguire automaticamente i test e verificare la coverage ad ogni push. La pipeline esegue i seguenti passaggi:
+- Installa le dipendenze.
+- Esegue i test con Jest.
+- Genera e carica il report di coverage.
+
+Puoi trovare la configurazione della pipeline nel file `.github/workflows/test.yml`.
