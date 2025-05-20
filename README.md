@@ -55,3 +55,16 @@ Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) 
   npm start 4 "banana"
   # Output: Conteggio caratteri per "banana": { b: 1, a: 3, n: 2 }
   ```
+
+## Esecuzione dei test
+
+Per eseguire i test unitari:
+```sh
+npm test
+```
+
+Per eseguire i test e generare il report di code coverage:
+```sh
+npm run coverage
+```
+Il report dettagliato sarà disponibile nella cartella `coverage/`.
